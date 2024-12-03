@@ -39,22 +39,17 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Motorcycling
           link:
 
-        - item: Snowboarding
+        - item: 4wd Driving
           link:
 
-        - item: Cooking
+        - item: Camping
           link:
 
 career-profile:
@@ -136,43 +131,42 @@ experiences:
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
+        - name: Advanced Test Manager
           start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
+          end: 
+          organization: ISTQB
+          credentialid: 
           credentialurl: www.google.com
           credentialname: Google
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
+          - name: Foundations Agile Extentions
           start: 2019
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: ISTQB
+          credentialid: 
+          credentialurl: 
+          credentialname: 
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            
+        - name: Advanced Test Analyst
+          start: 2019
+          end:
+          organization: ISTQB
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+
+          - name: Foundations
+          start: 2019
+          end:
+          organization: ISTQB
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+           
 
 projects:
     title: Projects
