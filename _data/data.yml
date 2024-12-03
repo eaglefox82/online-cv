@@ -37,13 +37,7 @@ sidebar:
       title: Languages
       info:
         - idiom: English
-          level: Native
-
-        - idiom: 
-          level: 
-
-        - idiom: 
-          level: 
+          level: Native 
 
     interests:
       title: Interests
