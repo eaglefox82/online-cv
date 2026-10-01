@@ -140,7 +140,7 @@ projects:
     assignments:
       - title: QA Copilot
         link: "https://github.com/eaglefox82"
-        tagline: "CONFIRM-IP: portable QA agent framework (Python) — LLM test-case generation, defect triage, automation orchestration; air-gap safe; one skill, four host surfaces (standalone, MCP, Gemini, M365 Copilot)."
+        tagline: "Portable QA agent framework (Python) — LLM test-case generation, defect triage, automation orchestration; air-gap safe; one skill, four host surfaces (standalone, MCP, Gemini, M365 Copilot)."
 
       - title: Provenance Garage (CarVault)
         link: "https://github.com/eaglefox82"
