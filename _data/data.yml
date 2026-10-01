@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Brendan Fox
-    tagline: Test Manager
+    tagline: Senior Test Manager # CONFIRM-BRAND: or "Head of Quality"
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -17,49 +17,77 @@ sidebar:
     phone: 0405 365 213
     timezone: Australia/Sydney
     citizenship:
-    website: 
-    linkedin: 
-    xing: 
+    website: https://github.com/eaglefox82
+    linkedin: brendan-fox-au
+    xing:
     github: eaglefox82
-    telegram: 
+    telegram:
     gitlab:
     bitbucket:
-    twitter: 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow:
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    goodreads:
+    mastodon:
+    hackerrank:
+    leetcode:
+    pdf:
 
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native 
+          level: Native
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Motorcycling (BMW S1000RR)
           link:
-
-        - item: Snowboarding
+        - item: Self-hosting & home automation
           link:
-
-        - item: Cooking
+        - item: Cadet-group volunteering (Australian Air League)
+          link:
+        - item: Tabletop game design (Blood on the Clocktower)
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Senior Test Manager who builds the tooling he advocates. I lead
+      end-to-end test delivery for complex programs in financial services
+      and government — strategy, risk-based planning, team leadership, and
+      release assurance — and I write production software myself: Laravel
+      applications, Python automation, and an AI QA-agent framework that
+      runs fully air-gapped.
+
+      Teams work with me because I can talk architecture with developers,
+      risk with executives, and get hands-on with the tools we evaluate.
+      My philosophy is simple: show it running rather than presenting
+      slides.
+
+# CONFIRM-EMPLOYMENT: replace the two entries below with your real history.
+# Format kept ready so you only edit text, not structure.
+experiences:
+    title: Experiences
+    info:
+      - role: Test Consultant
+        time: PLANIT_START – Present
+        company: Planit, Sydney
+        details: |
+          Lead test strategy and delivery on client programs in financial
+          services and government.
+            - CONFIRM_PROJECT_1: name a marquee engagement (anonymised ok) + one hard number (programs / releases / team size / defect or cycle-time metric)
+            - CONFIRM_PROJECT_2: second program or initiative
+            - Built qa-copilot, a portable QA agent framework (Python, no third-party deps) for LLM-assisted test-case generation, defect triage, and automation orchestration — designed for cloud, on-prem, and air-gapped client environments
+      - role: CONFIRM_PREV_ROLE
+        time: PREV_YEARS
+        company: CONFIRM_PREV_COMPANY
+        details: |
+          CONFIRM_PREV_SUMMARY
+            - CONFIRM_PREV_BULLET_1
+            - CONFIRM_PREV_BULLET_2
+
 education:
     title: Certifications
     info:
@@ -67,207 +95,92 @@ education:
         university: ISTQB
         time: 2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: Certificated Agile Extentions
-        university: ISTQB
-        time: 2017
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          ISTQB Advanced Level — Test Manager.
       - degree: Advanced Test Analyst
         university: ISTQB
         time: 2017
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+          ISTQB Advanced Level — Test Analyst.
+      - degree: Certified Agile Extensions
+        university: ISTQB
+        time: 2017
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          ISTQB Agile Tester extensions.
+    # CONFIRM-EDU: add your degree/diploma + institution here if you want it shown.
 
 certifications:
-      title: Certifications
+      title: Approach
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: Test Strategy & Risk-Based Testing
+          start:
           end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          organization: Practice
+          credentialid:
+          credentialurl:
+          credentialname:
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            Risk-based test planning scaled to release cadence: what to test,
+            how deeply, and when "good enough" is defensible to a board.
+        - name: Runnable Artefacts over Slide Decks
+          start:
+          end:
+          organization: Practice
+          credentialid:
+          credentialurl:
+          credentialname:
+          details: |
+            Prototypes in the client's stack, in the room, working. If it
+            can't be demoed, it doesn't get pitched.
 
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Software I have designed and built — end to end, in production or
+      ready to run.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: QA Copilot
+        link: "https://github.com/eaglefox82"
+        tagline: "CONFIRM-IP: portable QA agent framework (Python) — LLM test-case generation, defect triage, automation orchestration; air-gap safe; one skill, four host surfaces (standalone, MCP, Gemini, M365 Copilot)."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Provenance Garage (CarVault)
+        link: "https://github.com/eaglefox82"
+        tagline: "Production Laravel 12 application: auth, subscriptions-ready tiers, PDF export, mobile-first PWA, AU privacy compliance. Solo-built end to end including CI and ops."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Staff Register
+        link: "https://github.com/eaglefox82"
+        tagline: "Workforce allocation & dashboard platform (Laravel) for a cadet organisation: rostering, compliance tracking, reporting."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Self-hosted AI Operations Platform
+        link: "https://github.com/eaglefox82"
+        tagline: "A 12-agent autonomous assistant fleet on Proxmox: scheduled operations, messaging integrations, home automation, and memory pipelines — all on private hardware."
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Test Strategy & Program Delivery
         level: 95%
 
-      - name: Ruby on Rails
+      - name: QA Team Leadership & Coaching
+        level: 90%
+
+      - name: Stakeholder & Executive Communication
+        level: 90%
+
+      - name: Laravel / PHP
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Python
+        level: 85%
 
+      - name: AI Agent & LLM Integration (MCP, OpenAI, Ollama)
+        level: 80%
 
+      - name: Docker & Kubernetes/Helm
+        level: 75%
+
+      - name: CI/CD (GitHub Actions)
+        level: 75%
+
+      - name: SQL (MySQL / PostgreSQL / SQLite)
+        level: 80%
