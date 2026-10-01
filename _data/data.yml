@@ -1,16 +1,16 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output.
+# Online CV data — real content, sourced from Brendan's LinkedIn profile export 2026-10-02.
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: false
+    education: True
 
     # Profile information
     name: Brendan Fox
-    tagline: Senior Test Manager # CONFIRM-BRAND: or "Head of Quality"
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    tagline: Senior Test Manager
+    avatar: profile.png
 
     # Sidebar links
     email: fox82b@gmail.com
@@ -54,59 +54,82 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Senior Test Manager who builds the tooling he advocates. I lead
-      end-to-end test delivery for complex programs in financial services
-      and government — strategy, risk-based planning, team leadership, and
-      release assurance — and I write production software myself: Laravel
-      applications, Python automation, and an AI QA-agent framework that
-      runs fully air-gapped.
+      Senior Test Manager with 15+ years in software quality assurance,
+      leading end-to-end test delivery across complex programs in financial
+      services, utilities, and government. I run multi-stream test programs,
+      lead onshore and offshore teams to coordinated delivery, and lift the
+      quality practice around me — regression frameworks, tooling adoption,
+      and defect governance across stakeholders and vendors.
 
-      Teams work with me because I can talk architecture with developers,
-      risk with executives, and get hands-on with the tools we evaluate.
-      My philosophy is simple: show it running rather than presenting
-      slides.
+      What sets me apart is that I also build the tooling I advocate: Laravel
+      and Python applications, and QA agent frameworks on LLMs that I design
+      and operate myself. I can talk architecture with developers, risk with
+      executives, and show a working artefact instead of a slide. Teams grow
+      with me — I have mentored testers, run hiring and onboarding, and built
+      capability rather than just consumed it.
 
-# CONFIRM-EMPLOYMENT: replace the two entries below with your real history.
-# Format kept ready so you only edit text, not structure.
 experiences:
     title: Experiences
     info:
-      - role: Test Consultant
-        time: PLANIT_START – Present
+      - role: Test Manager (Test Consultant)
+        time: 2016 - Present
         company: Planit, Sydney
         details: |
-          Lead test strategy and delivery on client programs in financial
-          services and government.
-            - CONFIRM_PROJECT_1: name a marquee engagement (anonymised ok) + one hard number (programs / releases / team size / defect or cycle-time metric)
-            - CONFIRM_PROJECT_2: second program or initiative
-            - Built qa-copilot, a portable QA agent framework (Python, no third-party deps) for LLM-assisted test-case generation, defect triage, and automation orchestration — designed for cloud, on-prem, and air-gapped client environments
-      - role: CONFIRM_PREV_ROLE
-        time: PREV_YEARS
-        company: CONFIRM_PREV_COMPANY
+          Ten years at a global quality engineering firm, progressing from
+          Test Engineer through Test Lead and Account Manager to Test
+          Manager delivering client programs across financial services,
+          utilities, and government.
+            - SA Water (2025–current), Test Manager — led testing across a multi-project program, aligning delivery across streams; oversaw SIT across multiple systems and integrations; uplifted business-user capability in Azure DevOps, improving UAT performance
+            - Non-bank finance provider (2024), Test Manager — end-to-end testing of a payment module within an asset-finance platform; managed offshore teams across multiple regions; delivered SIT and performance testing to release timelines; implemented a regression framework for ongoing platform stability; drove Zephyr Scale adoption; chaired defect triage across stakeholders and vendors
+            - Transport energy distributor (2023), Test Manager — SIT and performance testing for a fleet-card banking system implementation; coordinated testing across stakeholders and vendors; supported go-live as production release coordinator
+            - Sydney Water, program delivery — led testing across a multi-project program with a distributed team of up to 7 testers (onshore/offshore); oversaw SIT across multiple systems and integrations; collaborated with automation and performance teams
+            - Side-by-side with client delivery, built qa-copilot: a portable QA agent framework (Python) for LLM-assisted test-case generation, defect triage, and automation orchestration — designed for cloud, on-prem, and air-gapped client environments
+
+      - role: Senior Test Analyst / Test Lead
+        time: 2011 - 2016
+        company: Harvey Norman, Homebush NSW
         details: |
-          CONFIRM_PREV_SUMMARY
-            - CONFIRM_PREV_BULLET_1
-            - CONFIRM_PREV_BULLET_2
+          Test Lead for Harvey Norman's in-house Point of Sale platform,
+          supporting deployments across Australian and international stores.
+            - Led SIT testing across concurrent initiatives on business-critical retail systems
+            - Managed end-to-end regression cycles; designed tests across complex integrations — EFTPOS, credit and interest-free payment solutions, and EDIFACT supply-chain processes
+            - Built the "Play Pen" store-simulation environment so business users could validate promotions and system changes before release
+            - Championed Confluence for test documentation; introduced structured test-completion reporting for stakeholder transparency
+            - Developed VBScript automation for SIT environment maintenance, data refresh, and deployment
+            - Mentored junior testers and contributed to hiring and onboarding of new testing resources
+
+      - role: Retail & Commercial Operations (early career)
+        time: 2001 - 2011
+        company: Samsung Electronics AU · Paxtons · Camera Sales · Wonderland Sydney
+        details: |
+          Eleven years in commercial operations before moving into software
+          testing — product marketing support at Samsung head office, store
+          and team management in retail. A business user's empathy most test
+          leaders have to learn the hard way.
 
 education:
     title: Certifications
     info:
-      - degree: Advanced Test Manager
+      - degree: ISTQB Advanced Level Test Manager
         university: ISTQB
         time: 2018
         details: |
-          ISTQB Advanced Level — Test Manager.
-      - degree: Advanced Test Analyst
+          Advanced-level test management certification.
+      - degree: ISTQB Advanced Level Test Analyst
         university: ISTQB
         time: 2017
         details: |
-          ISTQB Advanced Level — Test Analyst.
-      - degree: Certified Agile Extensions
+          Advanced-level test analysis certification.
+      - degree: Certified Agile Essentials
         university: ISTQB
         time: 2017
         details: |
-          ISTQB Agile Tester extensions.
-    # CONFIRM-EDU: add your degree/diploma + institution here if you want it shown.
+          Agile testing extensions.
+      - degree: Microsoft Dynamics 365 Sales — Essential Training
+        university: Microsoft
+        time:
+        details: |
+          CRM platform fundamentals.
 
 certifications:
       title: Approach
@@ -136,7 +159,7 @@ projects:
     title: Projects
     intro: >
       Software I have designed and built — end to end, in production or
-      ready to run.
+      ready to run. Happy to show it working in a conversation.
     assignments:
       - title: QA Copilot
         link: "https://github.com/eaglefox82"
@@ -144,7 +167,7 @@ projects:
 
       - title: Provenance Garage (CarVault)
         link: "https://github.com/eaglefox82"
-        tagline: "Production Laravel 12 application: auth, subscriptions-ready tiers, PDF export, mobile-first PWA, AU privacy compliance. Solo-built end to end including CI and ops."
+        tagline: "Production Laravel 12 application: auth, subscription tiers, PDF export, mobile-first PWA, AU privacy compliance. Solo-built end to end including CI and ops."
 
       - title: Staff Register
         link: "https://github.com/eaglefox82"
@@ -161,26 +184,29 @@ skills:
       - name: Test Strategy & Program Delivery
         level: 95%
 
-      - name: QA Team Leadership & Coaching
+      - name: Onshore/Offshore Team Leadership
         level: 90%
 
-      - name: Stakeholder & Executive Communication
+      - name: Stakeholder & Vendor Governance
         level: 90%
+
+      - name: SIT, Performance & Regression Testing
+        level: 90%
+
+      - name: Azure DevOps / Zephyr Scale / Confluence
+        level: 85%
 
       - name: Laravel / PHP
-        level: 85%
+        level: 80%
 
       - name: Python
-        level: 85%
-
-      - name: AI Agent & LLM Integration (MCP, OpenAI, Ollama)
         level: 80%
+
+      - name: AI Agent & LLM Integration (MCP)
+        level: 75%
 
       - name: Docker & Kubernetes/Helm
-        level: 75%
-
-      - name: CI/CD (GitHub Actions)
-        level: 75%
+        level: 70%
 
       - name: SQL (MySQL / PostgreSQL / SQLite)
-        level: 80%
+        level: 75%
